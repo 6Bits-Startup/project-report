@@ -43,8 +43,8 @@
     <tr><td>Cáceres Pizarro, Albino Florencio</td><td>U201923820</td></tr>
     <tr><td>Olivares Lao, Gustavo Alonso</td><td>U202216448</td></tr>
     <tr><td>Quispe Almonacid, Andre Sebastian</td><td>U201815005</td></tr>
+    <tr><td>Román López, Miguel Ángel Junior</td><td>U202212897</td></tr>
     <tr><td>Torres Huaman, Alexis Calin</td><td>U20241G152</td></tr>
-    <tr><td>Roman Lopez, Miguel Angel Junior </td><td>U202212897</td></tr>
   </tbody>
 </table>
 
@@ -285,6 +285,7 @@ La startup orienta sus esfuerzos hacia la mejora de procesos relacionados con el
 | <img src="report/assets/chapter-01/profile_Atencio.jpeg" alt="Foto de Atencio" width="120" /> | **Atencio Cristobal, Cielo Valentina** | U202424216 | Ingeniería de Software | Estudiante de Ingeniería de Software, responsable y creativa. Tengo experiencia en proyectos de videojuegos, donde aplico dibujo digital y diseño. En el proyecto apoyo en el desarrollo de la Web Application y en la documentación del informe, buscando comunicar con claridad mis avances al equipo. Mi meta es seguir creciendo como profesional en el campo tecnológico. |
 | <img src="report/assets/chapter-01/gustavo-olivares.jpg" alt="Foto de Gustavo Olivares" width="120" /> | **Olivares Lao, Gustavo Alonso** | U202216448 | Ingeniería de Software | Estudiante de Ingeniería de Software (8vo ciclo, UPC) y Desarrollador Front-end Junior. Especializado en React, JavaScript y Python, con un fuerte enfoque en análisis de datos e integración de inteligencia artificial. Busco unirme a un equipo colaborativo para optimizar procesos, aportar soluciones y continuar mi crecimiento profesional. |
 | <img src="report/assets/chapter-01/Sebastian.png" alt="Foto de Andre Sebastian" width="120" /> | **Quispe Almonacid, Andre Sebastian** | U201815005 | Ingeniería de Software | Me considero una persona analítica, constante y apasionada por la tecnología. Tengo un fuerte interés en la gestión de bases de datos, la estructura de los sistemas y el desarrollo de software. Disfruto entendiendo cómo funcionan las cosas desde la raíz y transformando la lógica en soluciones limpias y eficientes. Mi meta es seguir creciendo en el campo tecnológico y consolidarme como una profesional capaz de conectar bases de datos sólidas con el desarrollo moderno.|
+| <img src="report/assets/chapter-01/miguel-roman.jpg" alt="Foto de Miguel Román" width="120" /> | **Román López, Miguel Ángel Junior** | U202212897 | Ingeniería de Software | Estudiante de Ingeniería de Software. En OrganiK me encargo del bounded context Inventory del backend: lotes de stock, movimientos de inventario y ofertas, aplicando Domain-Driven Design, Conventional Commits y GitFlow. Me interesa construir modelos de dominio claros que reflejen las reglas reales del negocio.|
 | <img src="report/assets/chapter-01/alexis-torres.png" alt="Foto de Alexis Torres" width="125" /> | **Torres Huaman, Alexis Calin** | U20241G152 | Ingeniería de Software | Estudiante de Ingeniería de Software. Me considero una persona comprometida, analítica y apasionada por la resolución de problemas mediante el uso de la tecnología. Destaco por mi habilidad para trabajar en equipo, investigar nuevas herramientas y proponer ideas innovadoras que optimicen el desarrollo de software dentro del proyecto. |
 
 
@@ -2616,6 +2617,14 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
       <td>C</td>
     </tr>
     <tr>
+      <td>Román López, Miguel Ángel Junior</td>
+      <td>U202212897</td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+      <td>—</td>
+    </tr>
+    <tr>
       <td>Torres Huaman, Alexis Calin</td>
       <td>U20241G152</td>
       <td>C</td>
@@ -2778,7 +2787,7 @@ Se diseñó la vista de planes de suscripción ("A plan for every minimarket siz
 *Figura: Sección de planes de suscripción disponibles.*
 
 ##### Evidencia 7: Presentación del Equipo (The Team)
-Se desarrolló una sección detallada ("The people behind OrganiK") para presentar a los cinco miembros del equipo responsable del desarrollo. Cada tarjeta incluye la fotografía, nombre, código de estudiante y una cita sobre su enfoque en la construcción del producto.
+Se desarrolló una sección detallada ("The people behind OrganiK") para presentar a los seis miembros del equipo responsable del desarrollo. Cada tarjeta incluye la fotografía, nombre, código de estudiante y una cita sobre su enfoque en la construcción del producto.
 
 ![Perfiles de los miembros del equipo de OrganiK.](report/assets/chapter-05/execution-landing-team.jpg)
 *Figura: Perfiles de los miembros del equipo de OrganiK.*
@@ -2878,6 +2887,7 @@ Esta matriz <strong>LACX</strong> identifica los aspectos del Sprint 2 y asigna 
     <tr><td>Cáceres Pizarro, Albino Florencio</td><td>U201923820</td><td>Lil Doggy / a.caceres</td><td>C</td><td>—</td><td>L</td><td>—</td><td>—</td><td>L</td><td>—</td></tr>
     <tr><td>Olivares Lao, Gustavo Alonso</td><td>U202216448</td><td>GeGuMaGu25</td><td>—</td><td>L</td><td>—</td><td>L</td><td>—</td><td>—</td><td>—</td></tr>
     <tr><td>Quispe Almonacid, Andre Sebastian</td><td>U201815005</td><td>u201815005</td><td>C</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Román López, Miguel Ángel Junior</td><td>U202212897</td><td>MiguelRomn</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
     <tr><td>Torres Huaman, Alexis Calin</td><td>U20241G152</td><td>Alex_Torres</td><td>L</td><td>—</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td></tr>
   </tbody>
 </table>
@@ -3404,7 +3414,7 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 <p>
-  Durante el Sprint 2 los cinco integrantes registraron commits en el repositorio de la Landing Page, y cuatro de ellos en el de la Web Application. El trabajo se organizó con GitFlow: cada bounded context o mejora se desarrolló en una rama <code>feature</code>, con commits siguiendo Conventional Commits.
+  Durante el Sprint 2 los seis integrantes registraron commits en el repositorio de la Landing Page, y cuatro de ellos en el de la Web Application. El trabajo se organizó con GitFlow: cada bounded context o mejora se desarrolló en una rama <code>feature</code>, con commits siguiendo Conventional Commits.
 </p>
 
 <p>
@@ -3426,6 +3436,7 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
     <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>2</td><td>72</td><td>74</td></tr>
     <tr><td>Olivares Lao, Gustavo Alonso</td><td>GeGuMaGu25</td><td>10</td><td>20</td><td>30</td></tr>
     <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005</td><td>1</td><td>0</td><td>1</td></tr>
+    <tr><td>Román López, Miguel Ángel Junior</td><td>MiguelRomn</td><td>2</td><td>0</td><td>2</td></tr>
     <tr><td>Torres Huaman, Alexis Calin</td><td>Alex_Torres</td><td>2</td><td>8</td><td>10</td></tr>
   </tbody>
 </table>
