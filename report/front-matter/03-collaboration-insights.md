@@ -1,7 +1,7 @@
 # Project Report Collaboration Insights
 La presente sección tiene como finalidad evidenciar el trabajo colaborativo realizado durante el desarrollo del informe. Para ello, se pone a disposición el repositorio oficial del proyecto, alojado en una organización pública de GitHub:
 
-Link de la organización: 🔗https://github.com/5Bits-OrganiK
+Link de la organización: 🔗https://github.com/6Bits-Startup
 
 A partir de este repositorio, se analiza la participación de los integrantes del equipo mediante indicadores como número de commits, frecuencia de contribuciones y actividad general registrada en la plataforma.
 
@@ -55,3 +55,12 @@ Para la entrega TB1, el equipo trabajó sobre la rama `develop` aplicando GitFlo
 
 **Figura 7.** Registro de commits realizados durante TB1.  
 **Fuente:** GitHub.
+
+## AV2
+
+Para la entrega AV2 el equipo continuó trabajando sobre la rama `develop` con GitFlow. El repositorio del informe se trasladó a la organización [6Bits-Startup](https://github.com/6Bits-Startup). Las actividades de AV2 se concentraron en la rama `feature/av2-report`: redacción del Sprint 3 en el Capítulo V a partir de los commits de los repositorios de Web Services, Web Application y Landing Page, de las secciones 5.3 y 5.4, de la sección Video About-the-Team, y en la actualización del Student Outcome, la carátula y los anexos. Durante este periodo la mayor parte de los commits del equipo se registraron en el repositorio de los Web Services (sección 5.2.3.8), lo que explica la menor actividad en el repositorio del informe. Los mensajes de commit siguen la especificación Conventional Commits.
+
+<img src="../assets/common/contributors-av2.jpg" alt="Contribuidores del repositorio en AV2">
+
+**Figura 8.** Actividad y contribuidores del repositorio del informe hasta AV2.  
+**Fuente:** GitHub Insights.

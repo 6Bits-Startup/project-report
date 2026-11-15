@@ -80,23 +80,23 @@ Se establecen los repositorios oficiales de la solución **OrganiK** para garant
   <tbody>
     <tr>
       <td>Project Report OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/project-report.git">https://github.com/5Bits-OrganiK/project-report.git</a></td>
+      <td><a href="https://github.com/6Bits-Startup/project-report.git">https://github.com/6Bits-Startup/project-report.git</a></td>
     </tr>
     <tr>
       <td>Landing Page OrganiK (repositorio final)</td>
-      <td><a href="https://github.com/5Bits-OrganiK/organik-landing-page-static.git">https://github.com/5Bits-OrganiK/organik-landing-page-static.git</a></td>
+      <td><a href="https://github.com/6Bits-Startup/organik-website.git">https://github.com/6Bits-Startup/organik-website.git</a></td>
     </tr>
     <tr>
-      <td>Landing Page OrganiK (repositorio inicial del Sprint 1, reemplazado por <code>organik-landing-page-static</code>)</td>
+      <td>Landing Page OrganiK (repositorio inicial del Sprint 1, reemplazado por <code>organik-website</code>)</td>
       <td><a href="https://github.com/5Bits-OrganiK/organik-landingpage.git">https://github.com/5Bits-OrganiK/organik-landingpage.git</a></td>
     </tr>
     <tr>
       <td>Frontend Web Application OrganiK (repositorio final)</td>
-      <td><a href="https://github.com/5Bits-OrganiK/organik-web-application.git">https://github.com/5Bits-OrganiK/organik-web-application.git</a></td>
+      <td><a href="https://github.com/6Bits-Startup/organik-web-application.git">https://github.com/6Bits-Startup/organik-web-application.git</a></td>
     </tr>
     <tr>
       <td>Backend Web Services OrganiK</td>
-      <td><a href="https://github.com/5Bits-OrganiK/organik-backend.git">https://github.com/5Bits-OrganiK/organik-backend.git</a></td>
+      <td><a href="https://github.com/6Bits-Startup/organik-platform.git">https://github.com/6Bits-Startup/organik-platform.git</a></td>
     </tr>
   </tbody>
 </table>
@@ -275,14 +275,6 @@ Esta matriz <strong>LACX</strong> identifica los aspectos principales del sprint
       <td>C</td>
     </tr>
     <tr>
-      <td>Román López, Miguel Ángel Junior</td>
-      <td>U202212897</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-      <td>—</td>
-    </tr>
-    <tr>
       <td>Torres Huaman, Alexis Calin</td>
       <td>U20241G152</td>
       <td>C</td>
@@ -445,7 +437,7 @@ Se diseñó la vista de planes de suscripción ("A plan for every minimarket siz
 *Figura: Sección de planes de suscripción disponibles.*
 
 ##### Evidencia 7: Presentación del Equipo (The Team)
-Se desarrolló una sección detallada ("The people behind OrganiK") para presentar a los seis miembros del equipo responsable del desarrollo. Cada tarjeta incluye la fotografía, nombre, código de estudiante y una cita sobre su enfoque en la construcción del producto.
+Se desarrolló una sección detallada ("The people behind OrganiK") para presentar a los miembros del equipo responsable del desarrollo. Cada tarjeta incluye la fotografía, nombre, código de estudiante y una cita sobre su enfoque en la construcción del producto.
 
 ![Perfiles de los miembros del equipo de OrganiK.](./assets/chapter-05/execution-landing-team.jpg)
 *Figura: Perfiles de los miembros del equipo de OrganiK.*
@@ -513,7 +505,7 @@ Durante el Sprint 1 se configuró Firebase Hosting como proveedor cloud para des
 
 <p>
   <strong>Repositorios:</strong><br>
-  <a href="https://github.com/5Bits-OrganiK/organik-landing-page-static.git">https://github.com/5Bits-OrganiK/organik-landing-page-static.git</a><br>
+  <a href="https://github.com/6Bits-Startup/organik-website.git">https://github.com/6Bits-Startup/organik-website.git</a><br>
   <a href="https://github.com/5Bits-OrganiK/organik-web-application.git">https://github.com/5Bits-OrganiK/organik-web-application.git</a>
 </p>
 
@@ -545,7 +537,6 @@ Esta matriz <strong>LACX</strong> identifica los aspectos del Sprint 2 y asigna 
     <tr><td>Cáceres Pizarro, Albino Florencio</td><td>U201923820</td><td>Lil Doggy / a.caceres</td><td>C</td><td>—</td><td>L</td><td>—</td><td>—</td><td>L</td><td>—</td></tr>
     <tr><td>Olivares Lao, Gustavo Alonso</td><td>U202216448</td><td>GeGuMaGu25</td><td>—</td><td>L</td><td>—</td><td>L</td><td>—</td><td>—</td><td>—</td></tr>
     <tr><td>Quispe Almonacid, Andre Sebastian</td><td>U201815005</td><td>u201815005</td><td>C</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
-    <tr><td>Román López, Miguel Ángel Junior</td><td>U202212897</td><td>MiguelRomn</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
     <tr><td>Torres Huaman, Alexis Calin</td><td>U20241G152</td><td>Alex_Torres</td><td>L</td><td>—</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td></tr>
   </tbody>
 </table>
@@ -632,7 +623,7 @@ Las estimaciones en horas son de planificación. Todas las tareas están integra
       <td>02-10-2026</td>
     </tr>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>6Bits-Startup/organik-website</td>
       <td>feature/main-script</td>
       <td><code>8d8c10b</code></td>
       <td>feat(landing): add main script for navigation, i18n and animations</td>
@@ -640,7 +631,7 @@ Las estimaciones en horas son de planificación. Todas las tareas están integra
       <td>08-10-2026</td>
     </tr>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>6Bits-Startup/organik-website</td>
       <td>feature/not-found-page</td>
       <td><code>e5ac524</code></td>
       <td>feat(landing): add custom 404 not found page</td>
@@ -648,7 +639,7 @@ Las estimaciones en horas son de planificación. Todas las tareas están integra
       <td>08-10-2026</td>
     </tr>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>6Bits-Startup/organik-website</td>
       <td>feature/legal-pages</td>
       <td><code>bbadccf</code></td>
       <td>feat(landing): add privacy policy page</td>
@@ -656,7 +647,7 @@ Las estimaciones en horas son de planificación. Todas las tareas están integra
       <td>09-10-2026</td>
     </tr>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>6Bits-Startup/organik-website</td>
       <td>feature/legal-pages</td>
       <td><code>0483e07</code></td>
       <td>feat(landing): add terms and conditions page</td>
@@ -664,7 +655,7 @@ Las estimaciones en horas son de planificación. Todas las tareas están integra
       <td>09-10-2026</td>
     </tr>
     <tr>
-      <td>5Bits-OrganiK/organik-landing-page-static</td>
+      <td>6Bits-Startup/organik-website</td>
       <td>feature/global-styles</td>
       <td><code>77f021a</code></td>
       <td>chore(config): setup editorconfig, prettier and global styles</td>
@@ -1051,7 +1042,7 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
 
 **Landing Page**
 
-* **Repositorio:** https://github.com/5Bits-OrganiK/organik-landing-page-static
+* **Repositorio:** https://github.com/6Bits-Startup/organik-website
 * **Entorno local:** http://localhost:4200/
 * **URL de Producción:** https://organik-d6e58.web.app/
 
@@ -1072,7 +1063,7 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 <p>
-  Durante el Sprint 2 los seis integrantes registraron commits en el repositorio de la Landing Page, y cuatro de ellos en el de la Web Application. El trabajo se organizó con GitFlow: cada bounded context o mejora se desarrolló en una rama <code>feature</code>, con commits siguiendo Conventional Commits.
+  Durante el Sprint 2 los integrantes registraron commits en el repositorio de la Landing Page, y cuatro de ellos en el de la Web Application. El trabajo se organizó con GitFlow: cada bounded context o mejora se desarrolló en una rama <code>feature</code>, con commits siguiendo Conventional Commits.
 </p>
 
 <p>
@@ -1094,7 +1085,6 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
     <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>2</td><td>72</td><td>74</td></tr>
     <tr><td>Olivares Lao, Gustavo Alonso</td><td>GeGuMaGu25</td><td>10</td><td>20</td><td>30</td></tr>
     <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005</td><td>1</td><td>0</td><td>1</td></tr>
-    <tr><td>Román López, Miguel Ángel Junior</td><td>MiguelRomn</td><td>2</td><td>0</td><td>2</td></tr>
     <tr><td>Torres Huaman, Alexis Calin</td><td>Alex_Torres</td><td>2</td><td>8</td><td>10</td></tr>
   </tbody>
 </table>
@@ -1107,3 +1097,381 @@ Durante el Sprint 2 se desplegó en Firebase Hosting la nueva versión de la Lan
 <p>
   En la Web Application, los commits se concentran en el Shared Kernel y en las capas de cada bounded context, con avance incremental por rama <code>feature</code>. En la Landing Page, el trabajo se repartió entre el script principal, las páginas legales, la página 404 y los estilos globales.
 </p>
+
+---
+
+### 5.2.3. Sprint 3
+
+---
+
+#### 5.2.3.1. Sprint Planning 3.
+
+| **Sprint Planning Sprint 3** |  |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | 25/10/2026 |
+| Time | 8:00 p.m. |
+| Location | Discord |
+| Prepared By | Olivares Lao, Gustavo Alonso |
+| Attendees | Albino Florencio Cáceres Pizarro<br>Cielo Valentina Atencio Cristobal<br>Gustavo Alonso Olivares Lao<br>Andre Sebastian Quispe Almonacid<br>Alexis Calin Torres Huaman |
+| Sprint 2 Review Summary | En el Sprint 2 se desplegó en Firebase Hosting la primera versión de la Web Application, organizada por bounded contexts y con una API simulada (`fake-api`), y una nueva versión de la Landing Page con selector de idioma, páginas legales y página 404. En la revisión se confirmó que las vistas de dashboard, inventario, productos, proveedores, conservación, analítica e IAM cubrían los flujos principales, pero que ningún dato se conservaba entre sesiones porque no existían Web Services. La retroalimentación recibida en TB1 pidió priorizar el flujo de abastecimiento (solicitudes y órdenes de envío) y conectar la aplicación con un backend real. |
+| Sprint 2 Retrospective Summary | **Aciertos:** la organización por bounded contexts permitió trabajar en paralelo sin conflictos, y GitFlow con Conventional Commits facilitó revisar el avance de cada integrante. **Oportunidades de mejora:** el trabajo se concentró en pocos integrantes y algunos aportes llegaron cerca de la fecha de entrega. Para el Sprint 3 el equipo acordó asignar un bounded context del backend a cada integrante, integrar en `develop` al terminar cada capa (domain, application, infrastructure, interfaces) y registrar el avance en el tablero de Jira. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint 3 Goal** | **Nuestro enfoque** es publicar la primera versión de los Web Services de **OrganiK** (RESTful API en Spring Boot con autenticación JWT y documentación OpenAPI) y conectar con ellos la Web Application, completando el flujo de abastecimiento entre minimarkets y proveedores, además de publicar los videos About the Product y About the Team en la Landing Page. **Creemos que esto entrega** a administradores de minimarket y proveedores información persistente sobre inventario, lotes, solicitudes, órdenes de envío, conservación y notificaciones, y a los visitantes una explicación clara del producto y del equipo. **Esto se confirmará cuando** un proveedor pueda responder una solicitud de abastecimiento con una orden de envío y el administrador, al aceptarla, vea los lotes registrados en su inventario y la notificación correspondiente, con los datos conservados entre sesiones en la versión desplegada. |
+| Sprint 3 Velocity | 130 Story Points. |
+| Sum of Story Points | 127 Story Points: 47 de user stories (US-005, US-008, US-017, US-018, US-019, US-020, US-021, US-022, US-023, US-024, US-029, US-035) y 80 de technical stories del RESTful API (TS-PLT, TS-IAM, TS-PROF, TS-PROD, TS-INV, TS-LOT, TS-EXP, TS-SUP, TS-ORD, TS-CON, TS-MER, TS-DASH y TS-AUD). |
+
+<p>
+  <strong>Repositorios:</strong><br>
+  <a href="https://github.com/6Bits-Startup/organik-platform">https://github.com/6Bits-Startup/organik-platform</a><br>
+  <a href="https://github.com/6Bits-Startup/organik-web-application">https://github.com/6Bits-Startup/organik-web-application</a><br>
+  <a href="https://github.com/6Bits-Startup/organik-website">https://github.com/6Bits-Startup/organik-website</a>
+</p>
+
+---
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+<p>
+En el Sprint 3 los aspectos corresponden a los bounded contexts del RESTful API, a la integración de la Web Application con los Web Services, al despliegue y a la nueva versión de la Landing Page. Cada integrante lideró al menos un bounded context del backend, según los commits registrados en <code>organik-platform</code>. Un guion (—) indica que el integrante no participó en ese aspecto durante el sprint.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Platform base, IAM &amp; Deployment</th>
+      <th>Products</th>
+      <th>Inventory</th>
+      <th>Suppliers &amp; Requisition</th>
+      <th>Procurements</th>
+      <th>Conservation, Communication &amp; Profiles</th>
+      <th>Dashboard &amp; Analytics</th>
+      <th>Web App Integration</th>
+      <th>Landing Page v3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Atencio Cristobal, Cielo Valentina</td><td>Ciel0p</td><td>—</td><td>L</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>C</td><td>—</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>—</td><td>—</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Olivares Lao, Gustavo Alonso</td><td>GeGuMaGu25</td><td>L</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td><td>L</td><td>L</td><td>L</td></tr>
+    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005 / Seb2920</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>L</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Torres Huaman, Alexis Calin</td><td>Alexis Calin Torres Huaman</td><td>—</td><td>—</td><td>—</td><td>L</td><td>C</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+  </tbody>
+</table>
+
+---
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+El Sprint Backlog 3 se centra en la primera versión de los Web Services de **OrganiK** y en su integración con la Web Application. Las tareas se derivan de las user stories y technical stories del Product Backlog del capítulo III, y cada bounded context del backend se implementa en sus cuatro capas: domain, application, infrastructure e interfaces. Las tareas sin historia asociada corresponden a trabajo técnico transversal.
+
+El seguimiento del Sprint se realizó en el tablero de Jira del proyecto: [Tablero de Jira de OrganiK](https://5bits-organik.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog).
+
+![Backlog de Jira de OrganiK Backend](./assets/chapter-05/s3-jira-backlog.jpg)
+*Figura: Backlog del espacio OrganiK Backend en Jira.*
+
+| User Story Id | User Story Title | Task Id | Engineering Task | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **TS-PLT-001, TS-PLT-002** | Configurar base del RESTful API y persistencia | T024 | Base del RESTful API | Proyecto Spring Boot, Shared Kernel (`Result`, `ApplicationError`, manejo global de errores con RFC 9457), estrategia de nombres snake case, Spring Data JPA con MySQL y mensajes en inglés y español. | 8h | Olivares Lao, Gustavo Alonso | Done |
+| **TS-IAM-001, TS-IAM-002, TS-IAM-003, TS-PLT-003** | Sign-in, sign-up, usuarios y autorización | T025 | Bounded context IAM | Registro (`POST /api/v1/users`), inicio de sesión con JWT (`POST /api/v1/tokens`), roles iniciales, BCrypt y autorización por token. | 8h | Olivares Lao, Gustavo Alonso | Done |
+| **TS-PROF-001** | Profiles API | T026 | Bounded context Profiles | Información personal y preferencias (idioma y días de aviso de vencimiento) de cada usuario, validada con el ACL `IamContextFacade`. | 5h | Quispe Almonacid, Andre Sebastian | Done |
+| **TS-PROD-001, TS-PROD-002, US-005** | Products API | T027 | Bounded context Products | Productos y categorías en sus cuatro capas, con categorías iniciales cargadas al arrancar y actualización con PUT. | 8h | Atencio Cristobal, Cielo Valentina | Done |
+| **TS-INV-001, TS-LOT-001, TS-LOT-002, TS-MER-001, US-008, US-029** | Lotes, movimientos de inventario y ofertas | T028 | Bounded context Inventory | Lotes de stock, movimientos de inventario que actualizan la cantidad del lote, ofertas por periodo y evento de stock bajo. | 10h | Olivares Lao, Gustavo Alonso | Done |
+| **TS-SUP-001, TS-SUP-002, US-017** | Suppliers API | T029 | Bounded context Suppliers | Proveedores y productos ofrecidos, con disponibilidad que se descuenta al aceptar una orden de envío. | 8h | Torres Huaman, Alexis Calin | Done |
+| **TS-ORD-001, US-018, US-020** | Solicitudes de abastecimiento | T030 | Bounded context Requisition | Solicitudes de abastecimiento de un minimarket a un proveedor, con aceptación y rechazo. | 6h | Torres Huaman, Alexis Calin | Done |
+| **TS-ORD-002, TS-ORD-003, US-019, US-021, US-022, US-023, US-024** | Órdenes de envío | T031 | Bounded context Procurements | Órdenes de envío pendientes, decisiones de aceptación y rechazo con `Result`, y evento de orden aceptada. | 8h | Cáceres Pizarro, Albino Florencio | Done |
+| **TS-CON-001, TS-CON-002** | Conservation API | T032 | Bounded context Conservation | Zonas de almacenamiento y lecturas de temperatura y humedad; las lecturas fuera de rango generan una notificación. | 6h | Quispe Almonacid, Andre Sebastian | Done |
+| **TS-DASH-002** | Notifications API | T033 | Bounded context Communication | Notificaciones del minimarket (`ORDER`, `LOW_STOCK` y de conservación) y marcado como leída. | 5h | Quispe Almonacid, Andre Sebastian | Done |
+| **TS-DASH-001, TS-AUD-001** | Dashboard e historial de operaciones | T034 | Bounded contexts Dashboard y Analytics | Resumen operativo del minimarket, indicadores operativos e historial de actividad alimentados por eventos de integración. | 6h | Olivares Lao, Gustavo Alonso | Done |
+| — | Tarea técnica | T035 | Eventos de integración entre bounded contexts | Una orden aceptada registra sus lotes en Inventory y crea una notificación; un lote con stock bajo y una lectura fuera de rango crean notificaciones. | 5h | Olivares Lao, Gustavo Alonso | Done |
+| **TS-PLT-001** | Documentación del RESTful API | T036 | Documentación OpenAPI | SpringDoc OpenAPI con la referencia Scalar en `/scalar`, con descripción, parámetros y ejemplos de respuesta por endpoint. | 4h | Olivares Lao, Gustavo Alonso | Done |
+| — | Tarea técnica | T037 | Despliegue de los Web Services | `Dockerfile` multi-stage, plantilla `.env.example`, perfiles `dev` y `prod`, y despliegue en Render con base de datos MySQL. | 5h | Olivares Lao, Gustavo Alonso | Done |
+| — | Tarea técnica | T038 | Clases base de la capa de infraestructura | Interfaces base de entidad, recurso, respuesta y assembler, y clase base de endpoint para operaciones CRUD en la Web Application. | 4h | Atencio Cristobal, Cielo Valentina | Done |
+| **US-019, US-021, US-022, US-023, US-024** | Integración de la Web Application | T039 | Conexión de la Web Application con el RESTful API | Reemplazo de la API simulada por los Web Services en todos los bounded contexts, permisos por rol y persistencia de las ediciones. Release 2.0.0. | 10h | Olivares Lao, Gustavo Alonso | Done |
+| **US-035** | Ver videos del producto y del equipo | T040 | Videos en la Landing Page | Incrustación de los videos About the Product y About the Team publicados en YouTube. | 2h | Olivares Lao, Gustavo Alonso | Done |
+
+Las estimaciones en horas son de planificación. Todas las tareas están integradas en la rama `develop` de su repositorio y publicadas en `main` mediante ramas `release`.
+
+---
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+<p>
+Durante el Sprint 3 se implementó la primera versión de los Web Services de OrganiK en el repositorio <code>organik-platform</code> (Spring Boot, Spring Data JPA, MySQL y Spring Security con JWT), organizada en once bounded contexts con arquitectura hexagonal. Además, la Web Application pasó de una API simulada a consumir los Web Services (release 2.0.0), y la Landing Page incorporó los videos About the Product y About the Team. A continuación se resumen los commits más relevantes de cada repositorio, siguiendo Conventional Commits y GitFlow; el detalle completo está en el historial de cada repositorio.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/platform</td><td><code>fcb983d</code></td><td>chore: initial commit</td><td>Crea el proyecto Spring Boot del RESTful API.</td><td>25-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/platform</td><td><code>6f43efe</code></td><td>feat(result): add base implementation of Result pattern</td><td>Agrega el tipo <code>Result</code> del Shared Kernel para devolver éxitos y errores de aplicación.</td><td>25-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/conservation</td><td><code>a6307d9</code></td><td>feat(storage-zone): add CreateStorageZoneCommand command</td><td>Comando para crear zonas de almacenamiento.</td><td>26-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/conservation</td><td><code>fe07207</code></td><td>feat(storage-reading): add RecordStorageReadingCommand command</td><td>Comando para registrar lecturas de temperatura y humedad.</td><td>26-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/iam-api</td><td><code>0b25db1</code></td><td>feat(user): add UserRepository for querying and persisting users</td><td>Repositorio de usuarios del bounded context IAM.</td><td>28-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/profiles</td><td><code>f3299e7</code></td><td>feat(profile): add LanguageConverter jpa converter</td><td>Convierte la preferencia de idioma del perfil para su persistencia.</td><td>28-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/procurements</td><td><code>20917bf</code></td><td>feat(procurements): construct pending shipment orders</td><td>Crea las órdenes de envío en estado pendiente.</td><td>29-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/procurements</td><td><code>f9aea49</code></td><td>feat(procurements): handle accept and reject commands with Result</td><td>Aceptación y rechazo de órdenes de envío con el patrón <code>Result</code>.</td><td>30-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/products-api</td><td><code>67e533d</code></td><td>feat(category): add CategoriesController</td><td>Endpoints de categorías de productos.</td><td>30-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/products-api</td><td><code>9d0eefe</code></td><td>feat(product): add ProductCommandService</td><td>Servicio de comandos para crear y actualizar productos.</td><td>30-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/suppliers-api</td><td><code>88ade14</code></td><td>feat(supplier): add OfferedProductsController</td><td>Endpoints de productos ofrecidos por los proveedores.</td><td>30-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/requisition-api</td><td><code>f1b18d0</code></td><td>feat(supply-request): add SupplyRequestsController</td><td>Endpoints de solicitudes de abastecimiento.</td><td>30-10-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/communication-interfaces</td><td><code>aa1351d</code></td><td>feat(communication-interfaces): Implemment resources and transform Assemblers</td><td>Recursos y assemblers de la capa de interfaces de notificaciones.</td><td>10-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/platform-integration</td><td><code>74efa83</code></td><td>build(pom): add spring security, jjwt, springdoc api, scalar and spring boot maven plugin</td><td>Dependencias de seguridad JWT y documentación OpenAPI.</td><td>14-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/platform-integration</td><td><code>17838ae</code></td><td>feat(configuration): add profile based properties, scalar settings and localized message bundles</td><td>Perfiles <code>dev</code> y <code>prod</code>, configuración de Scalar y mensajes localizados.</td><td>14-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/platform-integration</td><td><code>d3135f9</code></td><td>chore(deployment): add dockerfile and environment variables template</td><td><code>Dockerfile</code> multi-stage y plantilla de variables de entorno para el despliegue.</td><td>14-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/platform-integration</td><td><code>8cb468a</code></td><td>refactor(inventory): migrate inventory to hexagonal architecture and apply movements to stock lots</td><td>Inventory con arquitectura hexagonal; los movimientos actualizan la cantidad del lote.</td><td>14-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>develop</td><td><code>247939b</code></td><td>feat(inventory): keep the location and notes of a stock lot and update them with PUT</td><td>Actualización de ubicación y notas de un lote.</td><td>15-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>feature/platform-integration</td><td><code>0bd91e9</code></td><td>feat(products): seed the default product categories on start-up</td><td>Carga las categorías iniciales al arrancar el servicio.</td><td>14-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-platform</td><td>develop</td><td><code>73a4b20</code></td><td>feat(profiles): update the full name of a profile with PUT</td><td>Actualización del nombre completo de un perfil.</td><td>15-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-web-application</td><td>develop</td><td><code>cfb1419</code></td><td>feat(shared): add base entity interface for standardized entity structure.</td><td>Interfaz base de entidad para la capa de infraestructura.</td><td>10-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-web-application</td><td>develop</td><td><code>63d07c0</code></td><td>feat(shared): add base API endpoint for generic crud operations.</td><td>Endpoint base para operaciones CRUD contra el RESTful API.</td><td>14-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-web-application</td><td>develop</td><td><code>958cb2c</code></td><td>feat(platform): connect the web application with the OrganiK Platform backend</td><td>Reemplaza la API simulada por los Web Services en los bounded contexts.</td><td>14-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-web-application</td><td>develop</td><td><code>21c3186</code></td><td>fix(iam): limit each role to the modules of its business</td><td>Cada rol accede solo a los módulos de su negocio.</td><td>15-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-web-application</td><td>develop</td><td><code>7666229</code></td><td>feat(conservation): create storage zones and record manual readings of the minimarket</td><td>Formularios de zonas y lecturas conectados al RESTful API.</td><td>15-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-web-application</td><td>main</td><td><code>5712958</code></td><td>chore(deploy): point the production build to the OrganiK Platform on Render</td><td>La compilación de producción consume los Web Services desplegados.</td><td>15-11-2026</td></tr>
+    <tr><td>6Bits-Startup/organik-website</td><td>feature/embed-about-videos</td><td><code>d59351a</code></td><td>feat(videos): embed the About the Product and About the Team videos</td><td>Incrusta los dos videos publicados en YouTube.</td><td>15-11-2026</td></tr>
+  </tbody>
+</table>
+
+---
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+En el Sprint 3 la Web Application de **OrganiK** dejó de usar datos simulados: todas las vistas leen y guardan información en los Web Services desplegados, de modo que los datos se conservan entre sesiones. Las capturas siguientes muestran las vistas con una sesión autenticada y datos de ejemplo, para el administrador de minimarket y para el proveedor.
+
+El video que ilustra la navegación lograda en este Sprint es el video About the Product (sección 5.4), que recorre la Landing Page y los flujos de ambos segmentos: [Ver video en YouTube](https://www.youtube.com/watch?v=2eTcuGm2veU).
+
+##### Evidencia 1: Landing Page (nueva versión)
+La Landing Page incorpora los videos About the Product y About the Team y la tarjeta del nuevo integrante del equipo.
+
+![Landing Page Sprint 3](./assets/chapter-05/s3-landing-home.jpg)
+*Figura: Pantalla principal de la Landing Page de OrganiK.*
+
+##### Evidencia 2: Dashboard del administrador (US-030)
+El dashboard muestra datos reales del minimarket: unidades en inventario, solicitudes creadas, órdenes por responder, lotes por vencer y stock bajo, calculados por el RESTful API (`GET /api/v1/dashboard`).
+
+![Dashboard Sprint 3](./assets/chapter-05/s3-app-dashboard.jpg)
+*Figura: Dashboard del administrador de minimarket conectado a los Web Services.*
+
+##### Evidencia 3: Inventario (US-002, US-006, US-008)
+Listado de lotes con producto, lote, stock, vencimiento y estado, con acciones para registrar stock, producto, merma y oferta.
+
+![Inventario Sprint 3](./assets/chapter-05/s3-app-inventory.jpg)
+*Figura: Vista de inventario con lotes persistidos.*
+
+##### Evidencia 4: Conservación (US-010, US-011, US-012)
+Monitoreo de temperatura y humedad por zona y registro manual de lecturas; una lectura fuera de rango se marca en el historial y genera una alerta.
+
+![Conservación Sprint 3](./assets/chapter-05/s3-app-conservation.jpg)
+*Figura: Vista de conservación con zonas y lecturas registradas.*
+
+##### Evidencia 5: Analítica y alertas (US-009)
+Indicadores operativos (pérdida evitada, productos en riesgo, solicitudes aceptadas), tendencia de alertas y alertas activas.
+
+![Analítica Sprint 3](./assets/chapter-05/s3-app-analytics.jpg)
+*Figura: Vista de analítica y alertas.*
+
+##### Evidencia 6: Notificaciones
+Notificaciones generadas por eventos de integración: orden de envío aceptada y lectura de conservación fuera de rango, con opción para marcarlas como leídas.
+
+![Notificaciones Sprint 3](./assets/chapter-05/s3-app-alerts.jpg)
+*Figura: Notificaciones del minimarket.*
+
+##### Evidencia 7: Dashboard del proveedor
+El proveedor ve las solicitudes compartidas con él, su catálogo y las órdenes que envió.
+
+![Dashboard del proveedor](./assets/chapter-05/s3-app-supplier-dashboard.jpg)
+*Figura: Dashboard del proveedor.*
+
+##### Evidencia 8: Solicitudes de abastecimiento (US-018, US-020)
+El proveedor consulta las solicitudes de abastecimiento que le envía el minimarket, con producto, cantidad, motivo y estado.
+
+![Solicitudes Sprint 3](./assets/chapter-05/s3-app-requests.jpg)
+*Figura: Solicitudes de abastecimiento vistas por el proveedor.*
+
+---
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+En el Sprint 3 se documentaron con OpenAPI (SpringDoc) los 61 endpoints de la primera versión del RESTful API. La documentación se publica con Scalar API Reference, que muestra para cada endpoint su descripción, parámetros, cuerpo de la petición, respuestas posibles con ejemplos y fragmentos de llamada. Todos los endpoints, salvo el registro y el inicio de sesión, requieren un token JWT en la cabecera `Authorization: Bearer <token>`. Los errores siguen RFC 9457 (Problem Details) con un código de error localizado en inglés o español.
+
+* **Repositorio de Web Services:** https://github.com/6Bits-Startup/organik-platform
+* **Documentación desplegada (Scalar):** https://organik-platform.onrender.com/scalar
+* **Especificación OpenAPI:** https://organik-platform.onrender.com/v3/api-docs
+* **Commits relacionados con documentación:** `74efa83` (dependencias de SpringDoc y Scalar), `17838ae` (configuración de Scalar y mensajes localizados).
+
+| Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta | Technical Story |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Users | Registrar usuario | POST | `/api/v1/users` | Body: username, password, roles | 201 con el usuario creado; 409 si el usuario existe. | TS-IAM-002 |
+| Users | Consultar usuarios | GET | `/api/v1/users` | Query: minimarketId o username | 200 con la lista de usuarios. | TS-IAM-003 |
+| Tokens | Iniciar sesión | POST | `/api/v1/tokens` | Body: username, password | 201 con token JWT, id y roles; 401 si las credenciales no son válidas. | TS-IAM-001 |
+| Roles | Consultar roles | GET | `/api/v1/roles` | — | 200 con `ROLE_ADMINISTRATOR`, `ROLE_OPERATOR` y `ROLE_SUPPLIER`. | TS-IAM-003 |
+| Profiles | Crear, consultar y actualizar perfil | POST, GET, PUT | `/api/v1/profiles`, `/api/v1/profiles/{profileId}`, `/api/v1/profiles/{profileId}/preferences` | Path: profileId; Body: userId, fullName, email, minimarketId; preferencias: language, warningExpirationDays | 201/200 con el perfil; 404 si no existe. | TS-PROF-001 |
+| Categories | Crear y consultar categorías | POST, GET | `/api/v1/categories`, `/api/v1/categories/{categoryId}` | Body: name | 201/200 con la categoría. | TS-PROD-001 |
+| Products | Crear, consultar y actualizar productos | POST, GET, PUT | `/api/v1/products`, `/api/v1/products/{productId}` | Path: productId; Body: sku, name, categoryId, supplierId, unit | 201/200 con el producto; 400 si faltan datos. | TS-PROD-001, TS-PROD-002 |
+| Stock Lots | Registrar, consultar y actualizar lotes | POST, GET, PUT | `/api/v1/stock-lots`, `/api/v1/stock-lots/{stockLotId}` | Query: minimarketId; Body: minimarketId, productId, lotCode, quantity, minimumStock, expirationDate, location; PUT: location, notes, expirationDate | 201/200 con el lote; 404 si no existe. | TS-LOT-001, TS-LOT-002 |
+| Inventory Movements | Registrar y consultar movimientos | POST, GET | `/api/v1/inventory-movements`, `/api/v1/inventory-movements/{inventoryMovementId}` | Body: stockLotId, type, quantity | 201 y actualiza la cantidad del lote; 400 si la salida supera el stock. | TS-INV-002, TS-MER-001 |
+| Offers | Crear y consultar ofertas | POST, GET | `/api/v1/offers`, `/api/v1/offers/{offerId}` | Body: stockLotId, price, startsOn, endsOn | 201/200 con la oferta. | TS-MER-001 |
+| Suppliers | Registrar y consultar proveedores | POST, GET | `/api/v1/suppliers`, `/api/v1/suppliers/{supplierId}` | Body: businessName, contactName, phoneNumber, email | 201/200 con el proveedor. | TS-SUP-001 |
+| Offered Products | Publicar, consultar y actualizar productos ofrecidos | POST, GET, PUT | `/api/v1/offered-products`, `/api/v1/offered-products/{offeredProductId}` | Query: supplierId; Body: supplierId, productId, lotCode, availableQuantity | 201/200 con el producto ofrecido. | TS-SUP-002 |
+| Supply Requests | Crear, consultar, aceptar y rechazar solicitudes | POST, GET | `/api/v1/supply-requests`, `/{supplyRequestId}`, `/{supplyRequestId}/acceptances`, `/{supplyRequestId}/rejections` | Body: productId, supplierId, minimarketId, quantity, reason, requiredDate | 201/200 con la solicitud y su estado; 409 si ya fue decidida. | TS-ORD-001 |
+| Shipment Orders | Crear, consultar, aceptar y rechazar órdenes de envío | POST, GET | `/api/v1/shipment-orders`, `/{shipmentOrderId}`, `/{shipmentOrderId}/acceptances`, `/{shipmentOrderId}/rejections` | Body: supplierId, minimarketId, lines (productId, quantity, lotCode); decisión: decidedBy | 201/200 con la orden; al aceptar se registran los lotes en el inventario. | TS-ORD-002, TS-ORD-003 |
+| Storage Zones | Crear y consultar zonas | POST, GET | `/api/v1/storage-zones`, `/api/v1/storage-zones/{storageZoneId}` | Query: minimarketId; Body: minimarketId, name, storageCondition, minTemperature, maxTemperature, minHumidity, maxHumidity | 201/200 con la zona. | TS-CON-001 |
+| Storage Readings | Registrar y consultar lecturas | POST, GET | `/api/v1/storage-readings`, `/api/v1/storage-readings/{storageReadingId}` | Body: storageZoneId, temperature, humidity, recordedAt | 201 con la lectura y su estado; fuera de rango crea una notificación. | TS-CON-001, TS-CON-002 |
+| Notifications | Crear, consultar y marcar como leída | POST, GET | `/api/v1/notifications`, `/{notificationId}`, `/{notificationId}/readings` | Query: minimarketId | 200 con tipo, título y estado; la lectura la marca como leída. | TS-DASH-002 |
+| Dashboard | Consultar resumen operativo | GET | `/api/v1/dashboard` | Query: minimarketId, userId | 200 con unidades, solicitudes, órdenes, lotes por vencer y stock bajo. | TS-DASH-001 |
+| Operational Indicators | Consultar indicadores | GET | `/api/v1/operational-indicators` | Query: minimarketId | 200 con pérdida evitada, productos en riesgo y solicitudes aceptadas. | TS-DASH-001 |
+| Activity Records | Consultar historial de actividad | GET | `/api/v1/activity-records`, `/api/v1/activity-records/{activityRecordId}` | Query: minimarketId | 200 con actor, acción y fecha de cada operación. | TS-AUD-001 |
+
+Las rutas de la tabla se ajustaron durante la implementación respecto de la propuesta inicial del capítulo III (por ejemplo, `/api/v1/tokens` en lugar de `/api/v1/auth/sign-in` y `/api/v1/stock-lots` en lugar de `/api/v1/lots`), para nombrar los recursos con sustantivos en plural y representar las decisiones (aceptación, rechazo, lectura) como recursos creados con POST.
+
+La siguiente captura muestra la página principal de la documentación desplegada, con los recursos agrupados por etiqueta y la autenticación por token JWT.
+
+![Scalar API Reference de OrganiK Platform](./assets/chapter-05/s3-scalar-home.jpg)
+*Figura: Documentación del RESTful API publicada con Scalar.*
+
+La siguiente captura muestra el detalle del endpoint `GET /api/v1/stock-lots/{stockLotId}`, con el parámetro de ruta, las respuestas 200 y 404, el ejemplo de llamada con cURL y el ejemplo de respuesta con datos de muestra (lote `LT-204` de 248 unidades en la cámara fría 1).
+
+![Detalle del endpoint de lotes](./assets/chapter-05/s3-scalar-stock-lots.jpg)
+*Figura: Detalle del endpoint de consulta de lotes en Scalar.*
+
+---
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+En el Sprint 3 se desplegó por primera vez el RESTful API y se publicaron nuevas versiones de la Web Application y de la Landing Page.
+
+**Web Services (Render)**
+
+1. Se agregó al repositorio un `Dockerfile` multi-stage: la primera etapa compila el proyecto con Maven y la segunda ejecuta el JAR sobre una imagen JRE con el perfil `prod`.
+2. Se creó en Render un Web Service conectado al repositorio `6Bits-Startup/organik-platform`, que construye la imagen a partir del `Dockerfile` de la rama `main`.
+3. Se configuraron en Render las variables de entorno definidas en `.env.example`: `DATABASE_URL`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER`, `DATABASE_PASSWORD`, `JWT_SECRET`, `PORT` y `SPRING_PROFILES_ACTIVE=prod`. Las credenciales no se guardan en el repositorio.
+4. El perfil `prod` lee la conexión a MySQL desde esas variables y actualiza el esquema al arrancar (`ddl-auto=update`).
+
+* **Repositorio:** https://github.com/6Bits-Startup/organik-platform
+* **Entorno local:** http://localhost:8080/scalar
+* **URL de producción:** https://organik-platform.onrender.com/scalar
+
+**Web Application (Firebase Hosting)**
+
+La release 2.0.0 apunta la compilación de producción a los Web Services en Render (commit `5712958`) y se publicó con `firebase deploy --only hosting`.
+
+* **Repositorio:** https://github.com/6Bits-Startup/organik-web-application
+* **URL de producción:** https://organik-app-d6e58.web.app/
+
+**Landing Page (Firebase Hosting)**
+
+La release 2.2.1 y los videos incrustados se publicaron con `firebase deploy --only hosting`.
+
+* **Repositorio:** https://github.com/6Bits-Startup/organik-website
+* **URL de producción:** https://organik-d6e58.web.app/
+
+La siguiente captura muestra el proyecto en Render con el servicio `organik-platform` desplegado en el entorno Production, con runtime Docker y región Virginia.
+
+![Proyecto en Render](./assets/chapter-05/s3-render-project.jpg)
+*Figura: Servicio organik-platform desplegado en Render.*
+
+La siguiente captura muestra el detalle del servicio: repositorio `6Bits-Startup/organik-platform` conectado a la rama `main`, URL pública del servicio y los despliegues realizados a partir de los pull requests #6 y #7 de la release 1.0.0. Las variables de entorno no se muestran porque contienen credenciales.
+
+![Despliegues del servicio en Render](./assets/chapter-05/s3-render-deploys.jpg)
+*Figura: Historial de despliegues del RESTful API en Render.*
+
+---
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+<p>
+En el Sprint 3 todos los integrantes registraron commits en el repositorio de los Web Services. Cada integrante lideró un bounded context y lo implementó en ramas <code>feature</code> por capa o por recurso, con commits que siguen Conventional Commits; las ramas se integraron en <code>develop</code> y se publicaron en <code>main</code> con la release 1.0.0. El equipo coordinó el trabajo en sesiones de Discord y en el tablero de Jira.
+</p>
+
+<p>
+La siguiente tabla resume los commits registrados por integrante entre el 25/10/2026 y el 15/11/2026 (sin merges, todas las ramas), obtenidos con <code>git log --all --no-merges</code> de cada repositorio.
+</p>
+
+<table border="1" cellpadding="4" cellspacing="0" align="center">
+  <thead>
+    <tr>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>Web Services</th>
+      <th>Web Application</th>
+      <th>Landing Page</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Atencio Cristobal, Cielo Valentina</td><td>Ciel0p</td><td>54</td><td>7</td><td>0</td><td>61</td></tr>
+    <tr><td>Cáceres Pizarro, Albino Florencio</td><td>Lil Doggy / a.caceres</td><td>58</td><td>0</td><td>0</td><td>58</td></tr>
+    <tr><td>Olivares Lao, Gustavo Alonso</td><td>GeGuMaGu25</td><td>50</td><td>36</td><td>3</td><td>89</td></tr>
+    <tr><td>Quispe Almonacid, Andre Sebastian</td><td>u201815005 / Seb2920 / Sebastian</td><td>39</td><td>0</td><td>0</td><td>39</td></tr>
+    <tr><td>Torres Huaman, Alexis Calin</td><td>Alexis Calin Torres Huaman</td><td>90</td><td>0</td><td>0</td><td>90</td></tr>
+  </tbody>
+</table>
+
+<div align="center">
+  <img src="assets/chapter-05/s3-collab-platform-contributors.png" alt="Contribuidores del repositorio de los Web Services" width="90%">
+  <p><em>Figura: Contribuidores del repositorio de los Web Services (GitHub Insights).</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/chapter-05/s3-collab-webapp-contributors.png" alt="Contribuidores del repositorio de la Web Application" width="90%">
+  <p><em>Figura: Contribuidores del repositorio de la Web Application (GitHub Insights).</em></p>
+</div>
+
+<div align="center">
+  <img src="assets/chapter-05/s3-discord-session.png" alt="Sesión de trabajo del equipo en Discord" width="80%">
+  <p><em>Figura: Sesión de trabajo del equipo en Discord durante el Sprint 3.</em></p>
+</div>
+
+<p>
+En los Web Services, el trabajo se distribuyó por bounded context: Products (Atencio), Procurements (Cáceres), base del API, IAM, Dashboard, Analytics y despliegue (Olivares), Conservation, Communication y Profiles (Quispe) y Suppliers y Requisition (Torres); Olivares lideró además Inventory. En la Web Application, Atencio implementó las clases base de la capa de infraestructura y Olivares realizó la integración con los Web Services. En la Landing Page, Olivares incrustó los videos.
+</p>
+
+---
+
+## 5.3. Validation Interviews.
+
+### 5.3.1. Diseño de Entrevistas.
+
+Las entrevistas de validación con usuarios de los segmentos objetivo no se realizaron durante el Sprint 3. El equipo priorizó la implementación y el despliegue de los Web Services, de los que dependen los flujos que se validarán. Las sesiones de validación con administradores de minimarket y proveedores se programan para el Sprint 4, sobre la versión desplegada de la Landing Page y de la Web Application, con los siguientes user flows:
+
+* **Administrador de minimarket:** iniciar sesión, registrar stock de un lote, atender una alerta de conservación y aceptar o rechazar una orden de envío.
+* **Proveedor:** iniciar sesión, publicar un producto ofrecido y responder una solicitud de abastecimiento con una orden de envío.
+* **Visitante:** identificar la propuesta de valor, revisar los planes de su segmento y llegar al registro de la Web Application desde la Landing Page.
+
+### 5.3.2. Registro de Entrevistas.
+
+Pendiente para el Sprint 4.
+
+### 5.3.3. Evaluaciones según heurísticas.
+
+Pendiente para el Sprint 4.
+
+---
+
+## 5.4. Video About-the-Product.
+
+El video About the Product está dirigido a los visitantes de la Landing Page que quieren conocer el modelo de negocio de **OrganiK** y a los usuarios de la Web Application que quieren ver cómo realizar sus tareas. En un tono cercano y directo, coherente con el producto, el video presenta la propuesta de valor (controlar el inventario de productos orgánicos antes de que sea tarde), las funciones principales (inventario, lotes, vencimientos, conservación y alertas), los testimonios y los planes por segmento, y recorre la Web Application con el flujo del administrador de minimarket (dashboard, inventario, conservación, analítica y notificaciones) y el del proveedor (dashboard y solicitudes de abastecimiento).
+
+Esta primera versión no incluye todavía un testimonio de un usuario de las entrevistas de validación, porque estas se realizarán en el Sprint 4; se agregará en la versión final del video.
+
+![Video About the Product](./assets/chapter-05/s3-about-the-product.png)
+*Figura: Cuadro del video About the Product.*
+
+| Dato | Valor |
+| :--- | :--- |
+| Duración | 2:00 |
+| YouTube (incrustado en la Landing Page) | https://www.youtube.com/watch?v=2eTcuGm2veU |
+| Microsoft Stream | [Ver video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216448_upc_edu_pe/IQDgQed5MQpFSZ0xDI7D5hVkAbGvUVGdb0lKAjQWWSYiGmo?e=ZtXDh0) |
+| Archivo | upc-pre-202620-1asi0729-7742-5Bits-about-the-product-sprint-3.mp4 |
