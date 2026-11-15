@@ -1354,7 +1354,7 @@ En el Sprint 3 se desplegó por primera vez el RESTful API y se publicaron nueva
 **Web Services (Render)**
 
 1. Se agregó al repositorio un `Dockerfile` multi-stage: la primera etapa compila el proyecto con Maven y la segunda ejecuta el JAR sobre una imagen JRE con el perfil `prod`.
-2. Se creó en Render un Web Service conectado al repositorio `6Bits-Startup/organik-platform`, que construye la imagen a partir del `Dockerfile` en cada publicación de la rama `main`.
+2. Se creó en Render un Web Service conectado al repositorio `6Bits-Startup/organik-platform`, que construye la imagen a partir del `Dockerfile` de la rama `main`.
 3. Se configuraron en Render las variables de entorno definidas en `.env.example`: `DATABASE_URL`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER`, `DATABASE_PASSWORD`, `JWT_SECRET`, `PORT` y `SPRING_PROFILES_ACTIVE=prod`. Las credenciales no se guardan en el repositorio.
 4. El perfil `prod` lee la conexión a MySQL desde esas variables y actualiza el esquema al arrancar (`ddl-auto=update`).
 
@@ -1376,7 +1376,15 @@ La release 2.2.1 y los videos incrustados se publicaron con `firebase deploy --o
 * **Repositorio:** https://github.com/6Bits-Startup/organik-website
 * **URL de producción:** https://organik-d6e58.web.app/
 
-<!-- TODO: insertar capturas del panel de Render (servicio, variables de entorno y log de despliegue) -->
+La siguiente captura muestra el proyecto en Render con el servicio `organik-platform` desplegado en el entorno Production, con runtime Docker y región Virginia.
+
+![Proyecto en Render](./assets/chapter-05/s3-render-project.jpg)
+*Figura: Servicio organik-platform desplegado en Render.*
+
+La siguiente captura muestra el detalle del servicio: repositorio `6Bits-Startup/organik-platform` conectado a la rama `main`, URL pública del servicio y los despliegues realizados a partir de los pull requests #6 y #7 de la release 1.0.0. Las variables de entorno no se muestran porque contienen credenciales.
+
+![Despliegues del servicio en Render](./assets/chapter-05/s3-render-deploys.jpg)
+*Figura: Historial de despliegues del RESTful API en Render.*
 
 ---
 
