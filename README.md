@@ -73,6 +73,7 @@
 | 1.7.5 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Capítulo IV (4.4.3): los cuatro diagramas de User Flows (iniciar sesión, registrar stock, gestionar un pedido y atender una alerta de conservación) se incorporan bajo la descripción de cada flujo. |
 | 1.7.6 | 09/10/2026 | Olivares Lao, Gustavo Alonso | Exportación a PDF: ajustes de maquetación para evitar páginas casi vacías (imágenes verticales ajustadas a la página, saltos de sección solo en capítulos y secciones principales). |
 | 1.8.0 | 15/11/2026 | Olivares Lao, Gustavo Alonso | Entrega AV2: Sprint 3 (5.2.3.1 a 5.2.3.8) con los Web Services, su documentación OpenAPI y su despliegue en Render; secciones 5.3 y 5.4; Video About-the-Team en Conclusiones; Student Outcome y Project Report Collaboration Insights de AV2; actualización de la carátula, de los enlaces a la organización 6Bits-Startup y de los anexos; restauración del pipeline de exportación a PDF. Retiro de Román López, Miguel Ángel Junior de la relación de integrantes por su retiro del curso. |
+| 1.8.1 | 15/11/2026 | Olivares Lao, Gustavo Alonso | Correcciones de AV2: respuestas de los endpoints de usuarios y tokens según la especificación OpenAPI desplegada (58 endpoints), commits de documentación de los Web Services, diseño completo de las entrevistas de validación (5.3.1) con tareas por segmento y pauta de tiempos del video About-the-Team. |
 
 ---
 
@@ -3670,18 +3671,18 @@ El proveedor consulta las solicitudes de abastecimiento que le envía el minimar
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
-En el Sprint 3 se documentaron con OpenAPI (SpringDoc) los 61 endpoints de la primera versión del RESTful API. La documentación se publica con Scalar API Reference, que muestra para cada endpoint su descripción, parámetros, cuerpo de la petición, respuestas posibles con ejemplos y fragmentos de llamada. Todos los endpoints, salvo el registro y el inicio de sesión, requieren un token JWT en la cabecera `Authorization: Bearer <token>`. Los errores siguen RFC 9457 (Problem Details) con un código de error localizado en inglés o español.
+En el Sprint 3 se documentaron con OpenAPI (SpringDoc) los 58 endpoints de la primera versión del RESTful API. La documentación se publica con Scalar API Reference, que muestra para cada endpoint su descripción, parámetros, cuerpo de la petición, respuestas posibles con ejemplos y fragmentos de llamada. Todos los endpoints, salvo el registro y el inicio de sesión, requieren un token JWT en la cabecera `Authorization: Bearer <token>`. Los errores siguen RFC 9457 (Problem Details) con un código de error localizado en inglés o español.
 
 * **Repositorio de Web Services:** https://github.com/6Bits-Startup/organik-platform
 * **Documentación desplegada (Scalar):** https://organik-platform.onrender.com/scalar
 * **Especificación OpenAPI:** https://organik-platform.onrender.com/v3/api-docs
-* **Commits relacionados con documentación:** `74efa83` (dependencias de SpringDoc y Scalar), `17838ae` (configuración de Scalar y mensajes localizados).
+* **Commits relacionados con documentación:** `74efa83` (dependencias de SpringDoc y Scalar), `17838ae` (configuración de Scalar y mensajes localizados), `c3a2c16` (historias técnicas del API), `098e40d`, `e578ebf` y `01b8b3c` (README, CONTRIBUTING y CHANGELOG), `823a946`, `7376493` y `15803a7` (documentación del contexto Inventory), `d082885` y `0f94c05` (arquitectura y contextos Dashboard y Analytics) y `b295fec` (documentación de la versión 1.0.0).
 
 | Endpoint | Acción | Verbo | Sintaxis de llamada | Parámetros | Respuesta | Technical Story |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Users | Registrar usuario | POST | `/api/v1/users` | Body: username, password, roles | 201 con el usuario creado; 409 si el usuario existe. | TS-IAM-002 |
-| Users | Consultar usuarios | GET | `/api/v1/users` | Query: minimarketId o username | 200 con la lista de usuarios. | TS-IAM-003 |
-| Tokens | Iniciar sesión | POST | `/api/v1/tokens` | Body: username, password | 201 con token JWT, id y roles; 401 si las credenciales no son válidas. | TS-IAM-001 |
+| Users | Consultar usuarios | GET | `/api/v1/users`, `/api/v1/users/{userId}` | Path: userId | 200 con la lista de usuarios. | TS-IAM-003 |
+| Tokens | Iniciar sesión | POST | `/api/v1/tokens` | Body: username, password | 200 con id, username y token JWT; 404 si el usuario no existe. | TS-IAM-001 |
 | Roles | Consultar roles | GET | `/api/v1/roles` | — | 200 con `ROLE_ADMINISTRATOR`, `ROLE_OPERATOR` y `ROLE_SUPPLIER`. | TS-IAM-003 |
 | Profiles | Crear, consultar y actualizar perfil | POST, GET, PUT | `/api/v1/profiles`, `/api/v1/profiles/{profileId}`, `/api/v1/profiles/{profileId}/preferences` | Path: profileId; Body: userId, fullName, email, minimarketId; preferencias: language, warningExpirationDays | 201/200 con el perfil; 404 si no existe. | TS-PROF-001 |
 | Categories | Crear y consultar categorías | POST, GET | `/api/v1/categories`, `/api/v1/categories/{categoryId}` | Body: name | 201/200 con la categoría. | TS-PROD-001 |
@@ -3810,11 +3811,51 @@ En los Web Services, el trabajo se distribuyó por bounded context: Products (At
 
 ### 5.3.1. Diseño de Entrevistas.
 
-Las entrevistas de validación con usuarios de los segmentos objetivo no se realizaron durante el Sprint 3. El equipo priorizó la implementación y el despliegue de los Web Services, de los que dependen los flujos que se validarán. Las sesiones de validación con administradores de minimarket y proveedores se programan para el Sprint 4, sobre la versión desplegada de la Landing Page y de la Web Application, con los siguientes user flows:
+Las entrevistas de validación buscan comprobar si los usuarios de cada segmento entienden la propuesta de valor en la Landing Page y si pueden completar, sin ayuda, las tareas principales de la Web Application desplegada. Cada sesión dura entre 20 y 30 minutos, se graba en video con consentimiento del entrevistado y se conduce con el método de pensar en voz alta. Se planifican de 3 a 5 entrevistas por segmento; las sesiones no se realizaron durante el Sprint 3, en el que el equipo priorizó la implementación y el despliegue de los Web Services de los que dependen los flujos a validar, y se ejecutarán en el Sprint 4.
 
-* **Administrador de minimarket:** iniciar sesión, registrar stock de un lote, atender una alerta de conservación y aceptar o rechazar una orden de envío.
-* **Proveedor:** iniciar sesión, publicar un producto ofrecido y responder una solicitud de abastecimiento con una orden de envío.
-* **Visitante:** identificar la propuesta de valor, revisar los planes de su segmento y llegar al registro de la Web Application desde la Landing Page.
+**Estructura de la sesión**
+
+1. Apertura y consentimiento para grabar.
+2. Datos del entrevistado (nombre, edad, distrito, negocio y cargo) y preguntas de contexto sobre cómo controla hoy su stock y sus pedidos.
+3. Tareas en la Landing Page.
+4. Tareas en la Web Application (user flows).
+5. Preguntas de cierre: tarea más difícil, términos no comprendidos, facilidad de uso del 1 al 5 y un testimonio breve.
+
+**Segmento 1: administradores de minimarket**
+
+| # | Producto | Tarea | Qué se observa |
+|:---|:---|:---|:---|
+| L1 | Landing Page | Explicar con sus palabras qué es OrganiK y para quién es. | Comprensión de la propuesta de valor. |
+| L2 | Landing Page | Encontrar los beneficios para su minimarket. | Hallazgo de la sección de funciones. |
+| L3 | Landing Page | Cambiar el idioma a inglés y volver a español. | Ubicación del selector de idioma. |
+| L4 | Landing Page | Encontrar los términos y condiciones. | Revisión del footer. |
+| L5 | Landing Page | Indicar cómo empezaría a usar OrganiK. | Ubicación de la llamada a la acción. |
+| A1 | Web Application | Iniciar sesión (Flujo 1). | Mensajes de error y acceso. |
+| A2 | Web Application | Cambiar el idioma a español. | Ubicación de los botones ES/EN. |
+| A3 | Web Application | Identificar en el dashboard lo más urgente. | Lectura de lotes por vencer y alertas. |
+| A4 | Web Application | Registrar 20 unidades recibidas (Flujo 2). | Formulario de stock y validaciones. |
+| A5 | Web Application | Poner en oferta el lote por vencer. | Comprensión de lote y periodo de oferta. |
+| A6 | Web Application | Revisar y responder un pedido (Flujo 3). | Aceptación o rechazo del pedido. |
+| A7 | Web Application | Atender una alerta de temperatura (Flujo 4). | Comprensión del estado Critical. |
+| A8 | Web Application | Crear una solicitud de abastecimiento. | Formulario de solicitud. |
+
+**Segmento 2: proveedores de productos orgánicos**
+
+| # | Producto | Tarea | Qué se observa |
+|:---|:---|:---|:---|
+| L1 | Landing Page | Explicar qué es OrganiK y qué gana un proveedor. | Identificación como usuario objetivo. |
+| L2 | Landing Page | Encontrar la sección para proveedores. | Hallazgo de los planes de proveedor. |
+| L3 | Landing Page | Cambiar el idioma y volver a español. | Selector de idioma. |
+| L4 | Landing Page | Encontrar la política de privacidad. | Revisión del footer. |
+| P1 | Web Application | Iniciar sesión. | Mensajes de error y acceso. |
+| P2 | Web Application | Cambiar el idioma a español. | Botones ES/EN. |
+| P3 | Web Application | Leer en el dashboard las necesidades y pedidos pendientes. | Comprensión de los indicadores. |
+| P4 | Web Application | Revisar las solicitudes de los minimarkets. | Comprensión del modo solo lectura. |
+| P5 | Web Application | Publicar un producto en el catálogo. | Formulario de publicación y validaciones. |
+| P6 | Web Application | Actualizar la disponibilidad de un producto. | Edición del catálogo. |
+| P7 | Web Application | Responder una solicitud con un pedido. | Formulario de pedido con líneas. |
+
+Los problemas observados se registran con la escala de severidad del 1 al 4 y se clasifican según las heurísticas de usabilidad, diseño inclusivo y arquitectura de información del formato de evaluación del curso.
 
 ### 5.3.2. Registro de Entrevistas.
 
@@ -3889,11 +3930,12 @@ Esta primera versión incluye los testimonios de tres integrantes. La versión f
 | :--- | :--- |
 | Apertura: OrganiK, About the Team | 00:00:00 |
 | Nuestro proceso de trabajo (sesiones en Discord) | 00:00:05 |
-| Colaboración en la Web Application (GitHub Insights) | 00:00:13 |
-| Testimonios del equipo | 00:00:22 |
+| Colaboración en los Web Services (GitHub Insights) | 00:00:11 |
+| Colaboración en la Web Application (GitHub Insights) | 00:00:17 |
+| Testimonios del equipo | 00:00:23 |
 | Testimonio de Olivares Lao, Gustavo Alonso | 00:00:26 |
-| Testimonio de Quispe Almonacid, Andre Sebastian | 00:01:18 |
-| Testimonio de Torres Huaman, Alexis Calin | 00:02:28 |
+| Testimonio de Quispe Almonacid, Andre Sebastian | 00:01:17 |
+| Testimonio de Torres Huaman, Alexis Calin | 00:02:27 |
 | Cierre | 00:03:19 |
 
 | Dato | Valor |
