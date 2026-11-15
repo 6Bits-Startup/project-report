@@ -1169,7 +1169,8 @@ El Sprint Backlog 3 se centra en la primera versión de los Web Services de **Or
 
 El seguimiento del Sprint se realizó en el tablero de Jira del proyecto: [Tablero de Jira de OrganiK](https://5bits-organik.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog).
 
-<!-- TODO: insertar captura del tablero de Jira del Sprint 3 (assets/chapter-05/s3-jira-board.png) -->
+![Backlog de Jira de OrganiK Backend](./assets/chapter-05/s3-jira-backlog.jpg)
+*Figura: Backlog del espacio OrganiK Backend en Jira.*
 
 | User Story Id | User Story Title | Task Id | Engineering Task | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
