@@ -43,11 +43,12 @@ Esta primera versión incluye los testimonios de tres integrantes. La versión f
 | :--- | :--- |
 | Apertura: OrganiK, About the Team | 00:00:00 |
 | Nuestro proceso de trabajo (sesiones en Discord) | 00:00:05 |
-| Colaboración en la Web Application (GitHub Insights) | 00:00:13 |
-| Testimonios del equipo | 00:00:22 |
+| Colaboración en los Web Services (GitHub Insights) | 00:00:11 |
+| Colaboración en la Web Application (GitHub Insights) | 00:00:17 |
+| Testimonios del equipo | 00:00:23 |
 | Testimonio de Olivares Lao, Gustavo Alonso | 00:00:26 |
-| Testimonio de Quispe Almonacid, Andre Sebastian | 00:01:18 |
-| Testimonio de Torres Huaman, Alexis Calin | 00:02:28 |
+| Testimonio de Quispe Almonacid, Andre Sebastian | 00:01:17 |
+| Testimonio de Torres Huaman, Alexis Calin | 00:02:27 |
 | Cierre | 00:03:19 |
 
 | Dato | Valor |
