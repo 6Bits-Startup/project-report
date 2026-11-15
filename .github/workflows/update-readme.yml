@@ -62,6 +62,19 @@ jobs:
           )
 
           # =========================
+          # ANEXOS
+          # =========================
+
+          annexes = REPORT / "annexes"
+
+          if annexes.exists():
+              documents.extend(
+                  sorted(
+                      annexes.glob("*.md")
+                  )
+              )
+
+          # =========================
           # RUTAS RELATIVAS PARA README
           # =========================
 
