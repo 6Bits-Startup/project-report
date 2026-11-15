@@ -21,7 +21,7 @@
 
 **Profesor:** Velásquez Núñez, Ángel Augusto
 
-**INFORME DE TRABAJO FINAL — TB1**
+**INFORME DE TRABAJO FINAL — AV2**
 
 **Startup:** 5Bits
 
@@ -41,13 +41,12 @@
     <tr><td>Cáceres Pizarro, Albino Florencio</td><td>U201923820</td></tr>
     <tr><td>Olivares Lao, Gustavo Alonso</td><td>U202216448</td></tr>
     <tr><td>Quispe Almonacid, Andre Sebastian</td><td>U201815005</td></tr>
-    <tr><td>Román López, Miguel Ángel Junior</td><td>U202212897</td></tr>
     <tr><td>Torres Huaman, Alexis Calin</td><td>U20241G152</td></tr>
   </tbody>
 </table>
 
 <br>
 
-**Lima, octubre de 2026**
+**Lima, noviembre de 2026**
 </div>
 
