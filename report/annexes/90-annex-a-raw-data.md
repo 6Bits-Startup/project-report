@@ -4,7 +4,7 @@
 
 | Entrega | Video | Enlace |
 |:---|:---|:---|
-| AV2 | upc-pre-202620-1asi0729-7742-5Bits-expo-av2 | <!-- TODO: URL privada de Microsoft Stream de la exposición AV2 --> Pendiente |
+| AV2 | upc-pre-202620-1asi0729-7742-5Bits-expo-av2 (6:10) | [Ver exposición en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216448_upc_edu_pe/IQAnQ07HFztPTrIG_clnDRquASzgaSNeQo6rdUuPQwDqCXI?e=FvUWku) |
 
 ## Anexo B. Videos del proyecto
 
